@@ -1,0 +1,61 @@
+# === macOS system ===
+.DS_Store
+
+# === Xcode ===
+DerivedData/
+build/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+
+# User-specific settings
+xcuserdata/
+
+# Project files to keep
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/project.xcworkspace/
+!*.xcodeproj/xcshareddata/
+
+# Ignore user workspace data
+*.xcodeproj/xcuserdata/
+
+# Swift Package Manager
+.build/
+Package.resolved
+.swiftpm/
+
+# CocoaPods (optional)
+# Pods/
+# *.xcworkspace
+# Podfile.lock
+
+# Carthage (optional)
+Carthage/Build/
+
+# Accio (if used)
+.accio/
+Dependencies/
+
+# Fastlane (if used)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection tool (if used)
+iOSInjectionProject/
+
+# === dylib / native binaries ===
+ObadhEngineBridge/libobadh_engine.dylib
+
+# === Playgrounds ===
+timeline.xctimeline
+playground.xcworkspace
+
+# === Misc ===
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+

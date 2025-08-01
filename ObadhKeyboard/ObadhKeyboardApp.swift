@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct ObadhKeyboardApp: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        Settings {
+            EmptyView()  // macOS menu bar settings entry (can leave empty)
         }
     }
 }

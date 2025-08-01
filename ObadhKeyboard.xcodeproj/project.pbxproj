@@ -45,6 +45,11 @@
 			path = ObadhKeyboardUITests;
 			sourceTree = "<group>";
 		};
+		0975FEF92E3D1A270093B12B /* ObadhEngineBridge */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ObadhEngineBridge;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +80,7 @@
 		0975FEC22E3D19330093B12B = {
 			isa = PBXGroup;
 			children = (
+				0975FEF92E3D1A270093B12B /* ObadhEngineBridge */,
 				0975FECD2E3D19330093B12B /* ObadhKeyboard */,
 				0975FEDC2E3D19360093B12B /* ObadhKeyboardTests */,
 				0975FEE62E3D19360093B12B /* ObadhKeyboardUITests */,
@@ -109,6 +115,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				0975FECD2E3D19330093B12B /* ObadhKeyboard */,
+				0975FEF92E3D1A270093B12B /* ObadhEngineBridge */,
 			);
 			name = ObadhKeyboard;
 			packageProductDependencies = (
@@ -403,6 +410,10 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ObadhEngineBridge",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.obadh.ObadhKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +438,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ObadhEngineBridge",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.obadh.ObadhKeyboard;
