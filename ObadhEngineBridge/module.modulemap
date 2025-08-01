@@ -1,0 +1,12 @@
+//
+//  module.modulemap
+//  ObadhKeyboard
+//
+//  Created by yeasar on 1/8/25.
+//
+
+module obadh_engine {
+    header "obadh_ffi.h"
+    link "obadh_engine"
+    export *
+}
